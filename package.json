@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/Charlotteis/hottake#readme",
   "devDependencies": {
+    "glob": "^7.1.1",
     "nyc": "^10.1.2",
     "standard": "^8.6.0",
     "tap": "^10.1.1"
