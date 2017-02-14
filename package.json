@@ -1,6 +1,6 @@
 {
   "name": "hottake",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Enabling your bad tweets. Tweets from the CLI.",
   "main": "index.js",
   "scripts": {
