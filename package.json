@@ -1,0 +1,25 @@
+{
+  "name": "hottake",
+  "version": "1.0.0",
+  "description": "Enabling your bad tweets. Tweets from the CLI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Charlotteis/hottake.git"
+  },
+  "keywords": [
+    "tweets",
+    "tweet",
+    "twitter",
+    "hottake"
+  ],
+  "author": "Charlotte Spencer <charlottelaspencer@gmail.com>",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/Charlotteis/hottake/issues"
+  },
+  "homepage": "https://github.com/Charlotteis/hottake#readme"
+}
