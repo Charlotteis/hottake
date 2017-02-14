@@ -4,7 +4,8 @@
   "description": "Enabling your bad tweets. Tweets from the CLI.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretest": "standard *.js",
+    "test": "nyc -- tap test/*.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/Charlotteis/hottake/issues"
   },
-  "homepage": "https://github.com/Charlotteis/hottake#readme"
+  "homepage": "https://github.com/Charlotteis/hottake#readme",
+  "devDependencies": {
+    "nyc": "^10.1.2",
+    "standard": "^8.6.0",
+    "tap": "^10.1.1"
+  }
 }
