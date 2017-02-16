@@ -10,7 +10,7 @@ test('all JavaScript source files use strict mode', (t) => {
   const root = path.resolve(__dirname, '../')
   glob(globStr, {
     cwd: root,
-    ignore: 'node_modules/**/*.js'
+    ignore: ['node_modules/**/*.js', 'index.js']
   }, (err, files) => {
     if (err) { throw err }
     const line = "'use strict'\n"
