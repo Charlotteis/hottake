@@ -1,6 +1,6 @@
 'use strict'
 
 const tap = require('tap')
-const declareLove = require('../index.js')
+const declareLove = require('../lib/declare-love.js')
 
 tap.equal('I love cats', declareLove('cats'))

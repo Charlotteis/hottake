@@ -1,9 +1,8 @@
 #!/usr/bin/env node
-'use strict'
 
-module.exports = declareLove
-function declareLove (thing) {
-  return `I love ${thing}`
-}
+const updater = require('update-notifier')
+const pkg = require('./package.json')
+updater({pkg}).notify()
 
+const declareLove = require('./lib/declare-love')
 console.log(declareLove('cats'))
