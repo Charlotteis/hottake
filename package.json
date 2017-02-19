@@ -7,7 +7,8 @@
     "pretest": "standard *.js",
     "test": "nyc -- tap test/*.js",
     "preversion": "npm t",
-    "postversion": "npm publish && git push --follow-tags"
+    "postversion": "npm publish && git push --follow-tags",
+    "update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
   },
   "repository": {
     "type": "git",
@@ -29,7 +30,8 @@
     "glob": "^7.1.1",
     "nyc": "^10.1.2",
     "standard": "^8.6.0",
-    "tap": "^10.1.1"
+    "tap": "^10.1.1",
+    "weallcontribute": "^1.0.5"
   },
   "bin": {
     "hottake": "index.js"
