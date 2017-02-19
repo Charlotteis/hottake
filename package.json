@@ -8,6 +8,7 @@
     "test": "nyc -- tap test/*.js",
     "preversion": "npm t",
     "postversion": "npm publish && git push --follow-tags",
+    "update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'",
     "update-contrib": "weallcontribute -o . && git add CONTRIBUTING.md && git commit -m 'docs(contributing): updated CONTRIBUTING.md'"
   },
   "repository": {
@@ -20,7 +21,11 @@
     "twitter",
     "hottake"
   ],
-  "author": "Charlotte Spencer <charlottelaspencer@gmail.com>",
+  "author": {
+    "name": "Charlotte Spencer",
+    "email": "charlottelaspencer@gmail.com",
+    "twitter": "charlotteis"
+  },
   "license": "CC0-1.0",
   "bugs": {
     "url": "https://github.com/Charlotteis/hottake/issues"
@@ -31,6 +36,7 @@
     "nyc": "^10.1.2",
     "standard": "^8.6.0",
     "tap": "^10.1.1",
+    "weallbehave": "^1.0.0",
     "weallcontribute": "^1.0.5"
   },
   "bin": {
