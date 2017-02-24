@@ -43,6 +43,6 @@
     "hottake": "index.js"
   },
   "dependencies": {
-    "update-notifier": "^2.0.0"
+    "update-notifier": "^2.1.0"
   }
 }
