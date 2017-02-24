@@ -36,7 +36,7 @@
     "nyc": "^10.1.2",
     "standard": "^8.6.0",
     "tap": "^10.1.1",
-    "weallbehave": "^1.0.1",
+    "weallbehave": "^1.0.3",
     "weallcontribute": "^1.0.7"
   },
   "bin": {
