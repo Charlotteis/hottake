@@ -34,7 +34,7 @@
   "devDependencies": {
     "glob": "^7.1.1",
     "nyc": "^10.1.2",
-    "standard": "^8.6.0",
+    "standard": "^10.0.0-beta.0",
     "tap": "^10.2.1",
     "weallbehave": "^1.0.3",
     "weallcontribute": "^1.0.8"
